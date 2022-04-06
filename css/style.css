@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Monda', sans-serif;
+    color: #2A1E17;
+}
+.container{
+  background:url("../img/Login\ Page\ Design\ -\ 1.png");
+  height: 100vh;
+  background-size: cover;
+}
+.login{
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(30px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 40px;
+    padding: 120px;
+    width: 640px;
+    margin-left: 100px;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    
+}
+.title{
+    margin-bottom: 16px;
+}
+.title p{
+    font-size: 24px;
+    font-weight: 700;
+    color: #F25019;
+}
+.title h2{
+    color: #2A1E17;
+    font-size: 38px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 24px;
+    outline: none;
+    margin-top: 4px;
+}
+form label{
+    font-size: 14px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #BCBEC0;
+    opacity: 1; /* Firefox */;
+    font-weight: 400;
+  }
+  .pass{
+      margin-top: 32px;
+  }
+  .icon-pass{
+      position: relative;
+  }
+  .icon-pass input{
+      width: 100%;
+  }
+  .icon-pass .hide-eye{
+      width: 16px;
+      height: 16px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      right: 24px;
+      top:52%;
+      transform: translate(0,-50%);
+      color: #C7D2D6;
+  }
+  .hide-eye ion-icon{
+      font-size: 16px;
+  }
+  .forgot{
+      color: #2A1E17;
+      font-size: 12px;
+      text-decoration: none;
+      margin-top: 12px;
+  }
+  button{
+      padding:16px 0;
+      background-color: #F25019;
+      border-radius: 5px;
+      color: white;
+      font-size: 20px;
+      border: none;
+      cursor: pointer;
+      margin-top: 40px;
+  }
+  .social{
+      text-align: center;
+  }
+  .social-signin{
+      display: flex;
+      justify-content: space-between;
+  }
+  .social-signin a{
+      width: 125px;
+      padding: 12px;
+      background-color: white;
+      border-radius: 40px;
+      margin: 0 4px;
+      font-size: 24px;
+      margin: 12px 0 32px;
+  }
+  .continue{
+      text-align: center;
+      font-size: 14px;
+      margin-top: 40px;
+  }
+  .gg{
+      color: #F25019;
+  }
+  .git{
+      color: #2A1E17;
+  }
+  .fb{
+      color: #141ed5;
+  }
+  .register{
+      font-size: 14px;
+  }
+  .register a{
+      font-weight: 700;
+      text-decoration: none;
+      color: #2A1E17;
+  }
